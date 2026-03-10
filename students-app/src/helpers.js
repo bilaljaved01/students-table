@@ -7,7 +7,9 @@ import { useState, useEffect, useCallback } from "react";
 
 // reads VITE_API_URL from your frontend .env
 // fallback to localhost if not set
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:3000/api";
+
+console.log("API_URL:", API_URL);
 
 // ── validation ─────────────────────────────────────
 const emailRx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
