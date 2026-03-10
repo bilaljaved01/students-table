@@ -2,7 +2,7 @@
 cmds = ["npm install --include=dev"]
 
 [phases.build]
-cmds = ["./node_modules/.bin/tsc -p tsconfig.json"]
+cmds = ["npx tsc -p tsconfig.json"]
 
 [start]
 cmd = "node dist/main"
