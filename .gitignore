@@ -1,0 +1,11 @@
+# backend
+students-backend/node_modules/
+students-backend/dist/
+students-backend/.env
+students-backend/App.jsx
+students-backend/helpers.js
+
+# frontend
+students-app/node_modules/
+students-app/dist/
+students-app/.env
