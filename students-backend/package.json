@@ -5,11 +5,11 @@
   "author": "Bilal <bilaljaved1002@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "nest build",
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:prod": "node dist/main"
-  },
+  "build": "tsc -p tsconfig.json",
+  "start": "nest start",
+  "start:dev": "nest start --watch",
+  "start:prod": "node dist/main"
+},
   "dependencies": {
     "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
